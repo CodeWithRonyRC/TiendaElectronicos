@@ -83,5 +83,6 @@ namespace TiendaElectronica.Models
         public virtual ICollection<CarritoCompra> CarritoCompras { get; set; }
         public virtual ICollection<HistorialEstadoPedido> HistorialEstados { get; set; }
         public virtual ICollection<ComprobanteDeposito> ComprobantesValidados { get; set; }
+        //esta es una prueba de cambio
     }
 }
